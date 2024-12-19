@@ -1,0 +1,17 @@
+2. 2xx: Success (Everything’s Good)
+
+These mean that the request was received and understood, and everything went fine.
+
+Examples:
+
+200 OK: The server successfully handled the request, and any requested data is sent back.
+
+Example: You load a webpage, and the server responds with 200 OK to show the page.
+
+201 Created: The request was successful, and something new was created as a result.
+
+Example: You add a new item to a shopping cart, and the server creates it with 201 Created.
+
+204 No Content: The request was successful, but there's no new data to send back.
+
+Example: You delete an item from a list, and the server confirms with 204 No Content.
