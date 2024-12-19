@@ -1,0 +1,17 @@
+3. 3xx: Redirection (Look Somewhere Else)
+
+These codes tell the client (like your web browser) to look at a different URL to find what it's looking for.
+
+Examples:
+
+301 Moved Permanently: The resource has moved to a new address permanently.
+
+Example: A website’s URL changes, so when you visit the old one, the server responds with 301 to redirect you.
+
+302 Found: The resource is temporarily at a different URL.
+
+Example: If a website is under maintenance, it might redirect you to a temporary page with 302.
+
+304 Not Modified: The resource hasn’t changed since your last visit.
+
+Example: If the page hasn't been updated, the server sends 304, telling your browser to use its cached copy.
