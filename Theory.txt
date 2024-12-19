@@ -1,0 +1,2 @@
+HTTP status codes are like signals that let us know what happened when we made a request to a server. 
+These codes help us understand if things went smoothly or if there was a problem. Here’s a simpler breakdown with examples:
