@@ -1,0 +1,25 @@
+4. 4xx: Client Errors (Something’s Wrong on Your Side)
+
+These codes mean something is wrong with the request, often because of incorrect data or a missing requirement.
+
+Examples:
+
+400 Bad Request: The request was not understood due to a problem with how it was sent.
+
+Example: If you try to search with invalid characters, you might get a 400.
+
+401 Unauthorized: You need to log in to access this content.
+
+Example: If you try to access a private page without logging in, you’ll get a 401.
+
+403 Forbidden: You’re not allowed to access this resource.
+
+Example: You try to visit an admin-only page without permission, so the server sends 403.
+
+404 Not Found: The server couldn’t find what you were looking for.
+
+Example: You type the wrong URL or look for a deleted page and get 404.
+
+429 Too Many Requests: You've sent too many requests in a short time.
+
+Example: If you refresh a page repeatedly, you might see 429 as a rate limit warning.
