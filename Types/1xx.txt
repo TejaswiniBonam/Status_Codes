@@ -1,0 +1,6 @@
+1. 1xx: Informational (Keep Going)
+
+These codes tell us that the server got our request and is still working on it. They're not commonly seen by users.
+
+Example:
+100 Continue: The server says, "I've got the first part of your request, and you can send the rest."
