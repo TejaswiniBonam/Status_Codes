@@ -1,0 +1,21 @@
+5. 5xx: Server Errors (Something’s Wrong on the Server Side)
+
+These mean the server encountered an error or can’t complete the request.
+
+Examples:
+
+500 Internal Server Error: The server has an issue and can't fulfill the request.
+
+Example: The website crashes, and you see a 500 error page.
+
+502 Bad Gateway: The server received a bad response from another server it tried to get information from.
+
+Example: A server connecting to another service (like a database) fails, and you see 502.
+
+503 Service Unavailable: The server is temporarily unavailable, maybe due to maintenance or overload.
+
+Example: A busy site under heavy traffic returns 503 until it can handle requests again.
+
+504 Gateway Timeout: The server waited too long for another server to respond.
+
+Example: The website you’re visiting depends on another service, but it’s taking too long, so you see 504.
